@@ -55,13 +55,6 @@ const PrinterComponent = () => {
     });
   }, [title, color, background]);
 
-  console.log(params.background);
-  console.log(params.color);
-
-  console.log({
-    background: params.background ? params.background : "#141516",
-  });
-
   return (
     <div
       css={{
