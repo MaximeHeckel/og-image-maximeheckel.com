@@ -1,0 +1,22 @@
+{
+  "name": "og.maximeheckel.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maxime <heckelmaxime@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-on-netlify",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@emotion/babel-preset-css-prop": "^11.0.0",
+    "@emotion/react": "^11.1.4",
+    "next": "^10.0.5",
+    "next-on-netlify": "^2.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
